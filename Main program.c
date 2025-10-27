@@ -15,7 +15,7 @@ int main() {
 
     printf("Enter your choice: ");
     fgets(choice, sizeof(choice), stdin);
-    choice[strcspn(choice, "\n")] = 0; // remove newline
+    choice[strcspn(choice, "\n")] = 0; 
 
     printf("You selected: %s\n", choice);
     return 0;
