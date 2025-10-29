@@ -11,12 +11,14 @@ int main() {
     printf("3. Main Course - Punjabi Tadka\n");
     printf("4. Main Course - South Special\n");
     printf("5. Main Course - Chinese/Japanese Taste\n");
-    printf("....\n");
+    printf("\n");
 
     printf("Enter your choice: ");
     fgets(choice, sizeof(choice), stdin);
     choice[strcspn(choice, "\n")] = 0; 
 
     printf("You selected: %s\n", choice);
+    printf("any other specifications/requests:");
+    scanf();//to be continued
     return 0;
 }
